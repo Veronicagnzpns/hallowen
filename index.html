@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallowen Party</title>
+    <link rel="stylesheet" href="./styles/hallowen.css">
+    <link rel="shortcut icon" href="./images/favicon (1).ico " type="image/x-icon">
+     <!-- enlazo un javascript -->
+     <script src="./javascript/halloween.js"></script>
+</head>
+<body>
+    <audio id="grito">
+     <source src="./sound/287.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="ruidos">
+        <source src="./sound/cf1665faed7b42477dc6dcffdba59c90fa0e6cbc.mp3" type="audio/mpeg">
+     </audio>
+     <audio id="buh">
+        <source src="./sound/yt1s.com - Fantasma  Efectos De Sonido HD (2).mp3" type="audio/mpeg">
+     </audio>
+     
+    <div id="container">
+
+        <p id="p1">Scary Halloween Party</p>
+
+
+        <p id="p2">Don't pass on the window</p>
+
+        <p id="p3">Don't knock on the house</p>
+
+        <p id="p4">Don't bother the crow</p>
+
+        <div id="ventana" onmouseover="mostrar('murcielago');sonar('ruidos')"
+                          onmouseout="ocultar('murcielago')">
+        </div><!---- 1 creo un div vació-->
+
+        <img id="murcielago" src="./images/murcielago-imagen-animada-0036.gif">
+
+        <div id="pajaro" onmouseover="mostrar('bruja');sonar('grito')"
+                           onmouseout="ocultar('bruja')">
+        </div>
+        
+        <img id="bruja" src="./images/1532041b7388db634ff593b7d6d7e8bc.gif">
+        
+        
+        <div id="casa" onmouseover="mostrar('fantasma');sonar('buh')"
+                           onmouseout="ocultar('fantasma')">
+        </div>
+
+        <img id="fantasma" src="./images/8eb1f5f7bded99d95b525546eeb30ba4.gif">
+        
+
+
+    </div>
+</body>
+</html>

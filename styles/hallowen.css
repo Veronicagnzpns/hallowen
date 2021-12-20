@@ -1,0 +1,84 @@
+/********* hoja de estilo de hallowen   ********/
+/*********** IMPORTANTE:no es responsive*******/
+body{background-color: black;}
+
+#container{background-image: url(../images/123-1230241_big.jpg);
+          margin: auto;/*centrado de la escena*/
+           width:2560px;/*ancho de la imagen*/
+           height:1440px;/*alto de la imagen*/
+           font-size: 6.5em;
+           font-family: halloween;
+            color: blanchedalmond;
+            position: relative;/*el container se mueve*/
+        }
+ @font-face {
+    font-family: halloween;/* el nombre que yo quiera */
+    src: url("../fonts/October\ Crow.ttf"); /* donde está el archivo */
+}
+#p1, #p2, #p3, #p4 {text-shadow:5px 5px 5px brown;}
+#p1{position: absolute;/*fijado dentro de su contenedor*/
+    top: 10px;/*cordenada vertical*/
+    right: 100px;/*cordenada horizontal*/
+    
+}
+
+#p2{position: absolute;/*fijado dentro de su contenedor*/
+    font-size: 0.3em;
+    top: 400px;/*cordenada vertical*/
+    left: 100px;/*cordenada horizontal*/
+}
+#p3{position: absolute;/*fijado dentro de su contenedor*/
+    font-size: 0.3em;
+    top: 950px;/*cordenada vertical*/
+    left: 1000px;/*cordenada horizontal*/
+}
+#p4{position: absolute;/*fijado dentro de su contenedor*/
+    font-size: 0.3em;
+    top: 200px;/*cordenada vertical*/
+    left: 1000px;/*cordenada horizontal*/
+}
+
+#ventana {position:absolute;
+    top: 380px;
+    left: 490px;
+    width: 50px;
+    height: 75px;
+}
+#murcielago{position:absolute;
+    top:380px;
+    left:500px;
+    visibility:hidden; /* el murciélago de entrada no se ve */
+}
+
+#calabaza {position:absolute;
+    top: 630px;
+    left: 250px;
+    width: 250px;
+    height: 200px;;
+}
+#fantasma {position:absolute;
+    top:850px;
+    left:550px;
+    visibility:hidden; /* el murciélago de entrada no se ve */
+}
+
+#casa {position:absolute;
+    top: 675px;
+    left: 850px;
+    width: 200px;
+    height: 300px;
+    
+}
+#bruja {position:absolute;
+    top:400px;
+    left:1900px;
+    visibility:hidden; /* el murciélago de entrada no se ve */
+}
+
+#pajaro {position:absolute;
+    top: 300px;
+    left: 1150px;
+    width: 200px;
+    height: 100px;
+    /* el murciélago de entrada no se ve */
+}
